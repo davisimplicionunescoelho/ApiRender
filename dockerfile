@@ -15,7 +15,7 @@ FROM openjdk:17-jdk-slim
 
  
 
-COPY --from=build /target/PraticaSeara2-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build /target/ConectAPI-0.0.1-SNAPSHOT.jar app.jar
 
  
 
