@@ -20,7 +20,7 @@ FROM openjdk:17-jdk-slim
 
 COPY --from=maquinabuild /target/ConectAPI-0.0.1-SNAPSHOT.jar Davi.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar", "iza.jar"]
+ENTRYPOINT ["java","-jar", "Davi.jar"]
 
  
 
